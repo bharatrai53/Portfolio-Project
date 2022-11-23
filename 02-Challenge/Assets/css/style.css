@@ -1,0 +1,58 @@
+* {
+    box-sizing:border-box;
+}
+
+.main-header {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #916691;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  nav a {
+    color: #08010a;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+
+
+aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: left;
+  }
+
+
+  .section h1 {
+    font-family: sans-serif;
+    margin: 15%;
+    align-items: center;
+    
+  }
+.card {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: left;
+    border-style: solid;
+    border-left: 5px solid #08010a;
+    border-width: 1px;
+}
+
+header image {
+
+}
+  
