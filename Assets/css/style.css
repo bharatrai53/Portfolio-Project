@@ -51,7 +51,7 @@ nav a:hover {
 
 .container{
   background: #dbdbdb;
-  border:1px solid #6b6b6b;
+  border:3px solid #6b6b6b;
   margin: 1px;
   padding:5px;
 }
@@ -63,17 +63,51 @@ h2 {
 	color: #b6880a;
 }
 
-.card {
-  position: left;
-  margin: 10px;
+h3 {
+  font-size: 100%;
+  padding: 15px;
+}
+
+.box {
+  position: relative;
+  padding: 1%;
 }
 
 img {
-  border-radius: 4px;
-  width: 100px;
+  border-radius: 6px;
+  width: 200px;
+  margin: 30px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: rgb(87, 66, 81);
+}
+.box:hover .overlay {
+  opacity: .5;
+}
 
+.box a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.text {
+  color: whitesmoke;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 main {
   display: flex;
@@ -83,14 +117,25 @@ main {
 }
 
 article p {
-  margin: 2% 0;
+  margin: 1% 0;
+  padding: 3%;
   font-size: 110%;
 }
 
-article ul {
-  margin-left: 5%;
+.workResources ul {
+  margin-left: 6%;
   font-size: 110%;
   list-style: circle;
+}
+
+.contactForm {
+  display:flex;
+  flex-direction: row;
+}
+.contactForm p {
+  display:flex;
+  flex-direction: row;
+  padding: 5%;
 }
 
 footer {
@@ -99,6 +144,7 @@ footer {
   padding: 2%;
   background-color: var(--dark);
   color: var(--white-font);
+  font-size: 150%;
 }
 
 @media screen and (max-width: 768px) {

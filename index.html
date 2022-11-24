@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Advanced Selectors with CSS</title>
+  <title>Bharat's Portfolio</title>
   <link rel="stylesheet" href="./Assets/css/reset.css" />
   <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
@@ -26,6 +26,9 @@
     <section class ="gradientBRD">
       <article  class ="container">
         <h2>About Me</h2>
+        <div class ="card">
+        <a href="https://www.linkedin.com/in/bharat-rai-31976b196/"><img src="./Assets/images/bharatpic.jpg" /></a>
+      </div>
         <div>
           <p>Hi, my name is Bharat Rai and I am learning how to become a full stack developer at the UCLA bootcamp. 
             My background was originally in biomedical sciences, as I was originally on track to become a physician. 
@@ -36,27 +39,30 @@
       </article>
       <article class ="container">
         <h2>Work</h2>
-        <p>Here is my work I have done to date: </p>
-        <ul>
-          <li>
-            Horiseon Refactor 
-            <a href="https://bharatrai53.github.io/Horiseon-Refactor/">UCLA Week 1 HW</a> Added Semantic Elements to an HTML page.
-          </li>
-          <li class = card>
-            Pickup N' Park (click on our icon!)
-            <a href="https://pickupnpark.com/"><img src="./Assets/images/pnp.png" /></a> Created my first startup.
-            
-          </li>
-        </ul>
+        <div class="workResources">
+        <h3>Check out my work to date by hovering and clicking on the text: </h3>
+        <div class="box">
+            <img src="./Assets/images/uclahw1.png" />
+          <div class="overlay">
+            <div class="text"><a href="https://bharatrai53.github.io/Horiseon-Refactor/">Horiseon Refactor, where I added Semantic Elements to an HTML page.</a></div>
+          </div>
+        </div>
+          <div class ="box">
+            <img src="./Assets/images/pnp.png" />
+          <div class="overlay">
+            <div class="text"><a href="https://pickupnpark.com/">Pickup N' Park, my first startup.</a></div>
+          </div>
+        </div>
+      </div>
       </article>
       <article  class ="container">
         <h2>Contact Me</h2>
-        <div>
-          <p>Here are some resources to use to contact me:</p>
+        <div class="contactForm">
+          <h3>Here's how you can contact me:</h3>
           <ul>
             <li>
               Phone Number: 
-              <p>8059536686</p>
+              <p>(805)953-6686</p>
             </li>
             <li>Email:
               <p>bharatrai2016@gmail.com</p>
